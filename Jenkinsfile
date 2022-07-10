@@ -23,7 +23,7 @@ pipeline {
       steps{
         script {
           //dockerImage = docker.build registry 
-          sh 'sudo docker build -t claimvisionecr .'
+          sh 'docker build -t claimvisionecr .'
         }
       }
     }
